@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
     <title>Auth Analyzer - OAuth2 & SAML</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="navbar__logo">
+                    <ion-icon class="navbar__logo__svg" name="qr-code-outline"></ion-icon>
+                    <a href="#" class="navbar__logo__url">Auth Analyzer</a>
+                </div>
+                <div class="navbar__menu">
+                    <ul>
+                        <div class="navbar__menu__item">
+                            <li><a href="https://github.com/andreideak/auth-analyzer"><ion-icon name="logo-github"></ion-icon>GitHub</a></li>
+                        </div>
+                        <div class="navbar__menu__item dropdown">
+                            <li><a href="#"><ion-icon name="logo-github"></ion-icon>RFCs</a></li>
+                            <div class="navbar__menu__item__secondary dropdown">
+                                <ul>
+                                    <li><a class="navbar__menu__item__secondary--item" href="#">OpenID Connect</a></li>
+                                    <li><a class="navbar__menu__item__secondary--item" href="#">OAuth2</a></li>
+                                    <li><a class="navbar__menu__item__secondary--item" href="#">SAML 1.1</a></li>
+                                    <li><a class="navbar__menu__item__secondary--item" href="#">SAML 2.0</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="navbar__menu__item">
+                            <li><a href="https://github.com/andreideak/auth-analyzer"><ion-icon name="logo-github"></ion-icon>Feedback</a></li>
+                        </div>
+                        <div class="navbar__menu__item navbar__menu__signin">
+                            <button type="button" class="navbar__menu__signin-btn"><ion-icon class="navbar__menu__signin-svg" name="person-outline"></ion-icon>Sign In</button>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     
+    <!-- Load Ionic Web Component (icons) -->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
 </html>
